@@ -6,10 +6,11 @@ import math
 # can incorporate the popular times API to generate test data
 # only missing components are sale per table and profit per table
 
-def generate_discount(per_here, sale_tab, avg_marg):
+def generate_discount(per_here, sale_tab, num_tab, avg_marg):
     # per_here = percent here
     # sale_tab = average sale per table
     # avg_marg = the percentage amount profited per table
+    # num_tab = the number of possible tables or max people
     
     # generate optimal revenue
     # avg marg will most likely be a constant found from research
